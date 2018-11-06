@@ -1,0 +1,27 @@
+body{
+  background: #f99;
+}
+
+h1{
+  font-size: 50px;
+  font-style: normal;
+  color: white;
+  text-align: center;
+  background: black;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container > a {
+  background-color: pink;
+  width: 15%;
+  margin: 10px;
+  padding: 20px;
+  font-style: italic;
+  font-size: 30px;
+}
+
+a:hover {
+  background-color: purple;
